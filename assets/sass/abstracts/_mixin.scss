@@ -1,0 +1,234 @@
+/* google fonts */
+
+@mixin primary-font {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@mixin heading-font {
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* background qu */
+
+@mixin bg-prs {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* image fit */
+
+@mixin objfit {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* background qu */
+
+@mixin base-shadow {
+    box-shadow: 0 0 15px rgba(255, 89, 52, 0.2);
+    -webkit-box-shadow: 0 0 15px rgba(255, 89, 52, 0.2);
+    -moz-box-shadow: 0 0 15px rgba(255, 89, 52, 0.2);
+}
+
+@mixin hover-base-shadow {
+    box-shadow: 0 0 22px rgba(255, 89, 52, 0.4);
+    -webkit-box-shadow: 0 0 22px rgba(255, 89, 52, 0.4);
+    -moz-box-shadow: 0 0 22px rgba(255, 89, 52, 0.4);
+}
+
+@mixin form-shadow {
+    box-shadow: 0 0 14px rgba(106, 52, 255, 0.1);
+    -webkit-box-shadow: 0 0 14px rgba(106, 52, 255, 0.1);
+    -moz-box-shadow: 0 0 14px rgba(106, 52, 255, 0.1);
+}
+
+@mixin btn-shadow-base {
+    box-shadow: 0 40px 31px rgba(255, 89, 52, 0.1);
+    -webkit-box-shadow: 0 40px 31px rgba(255, 89, 52, 0.1);
+    -moz-box-shadow: 0 40px 31px rgba(255, 89, 52, 0.1);
+}
+
+@mixin smooth-shadow {
+    box-shadow: 0 0 16px rgba(252, 252, 252, 0.2);
+    -webkit-box-shadow: 0 0 16px rgba(252, 252, 252, 0.2);
+    -moz-box-shadow: 0 0 16px rgba(252, 252, 252, 0.2);
+}
+
+@mixin heavy-shadow {
+    box-shadow: 0 0 22px rgba(252, 252, 252, 0.4);
+    -webkit-box-shadow: 0 0 22px rgba(252, 252, 252, 0.4);
+    -moz-box-shadow: 0 0 22px rgba(252, 252, 252, 0.4);
+}
+
+@mixin box-shadow {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
+
+@mixin box-shadow2 {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+}
+
+@mixin bottom-shadow {
+    box-shadow: 1px 25px 32px rgba(196, 196, 196, 0.1);
+    -webkit-box-shadow: 1px 25px 32px rgba(196, 196, 196, 0.1);
+    -moz-box-shadow: 1px 25px 32px rgba(196, 196, 196, 0.1);
+}
+
+@mixin bottom-shadow2 {
+    box-shadow: 1px 25px 32px rgba(196, 196, 196, 0.2);
+    -webkit-box-shadow: 1px 25px 32px rgba(196, 196, 196, 0.2);
+    -moz-box-shadow: 1px 25px 32px rgba(196, 196, 196, 0.2);
+}
+
+
+/* center position */
+
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin pocenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin porightcenter {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+}
+
+
+/*  box */
+
+@mixin box15 {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+}
+
+@mixin box20 {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+}
+
+@mixin box25 {
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+}
+
+@mixin box30 {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+@mixin box35 {
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+
+@mixin box40 {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+@mixin box50 {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+@mixin box60 {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
+
+@mixin box70 {
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+}
+
+@mixin box80 {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+
+@mixin box90 {
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+}
+
+@mixin box100 {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+@mixin box150 {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+
+
+/* before after */
+
+@mixin beforeafter {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+@mixin beforeafter2 {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Font Awesome */
+
+@mixin icon-font {
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+
+/* Line Awesome */
+
+@mixin line-font {
+    font-family: 'Line Awesome Free';
+    font-weight: 900;
+    margin-right: 10px;
+}

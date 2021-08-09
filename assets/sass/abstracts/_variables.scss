@@ -1,0 +1,88 @@
+/* 
+******* Variables 
+*/
+
+
+/* ff864e */ // Colors
+$text--base: #ff5934;
+$text-hover--base:#ff7758;
+$text--main: #232323;
+$text--body: #d8d8d8;
+$text--Shamrock: #3ed388;
+$text--Clay:#0f0d1d;
+$text--marino: #3f51b5;
+$text--purple: #660099;
+$text--black: #000;
+$text--white: #fff;
+$text--primary: #007bff;
+$text--secondary: #6c757d;
+$text--success: #28a745;
+$text--danger: #dc3545;
+$text--warning: #ffc107;
+$text--info: #17a2b8;
+$text--light: #e2e6ea;
+$text--dark: #26292c;
+// btn-color
+$btn--base:#ff5934;
+$btn--Shamrock:#3ed388;
+$btn--marino:#3f51b5;
+$btn--Clay:#0f0d1d;
+$btn--purple:#660099;
+$btn--primary: #007bff;
+$btn--secondary: #6c757d;
+$btn--success: #28a745;
+$btn--danger: #dc3545;
+$btn--warning: #ffc107;
+$btn--info: #17a2b8;
+$btn--light: #e2e6ea;
+$btn--white: #fff;
+$btn--dark: #26292c;
+$btn--black: #000;
+// Gradient background
+$gradient-card: linear-gradient(0deg, rgba(106, 52, 255, 1) 0%, rgba(255, 255, 255, 0.15730042016806722) 54%);
+$gradient-card-hover: linear-gradient(0deg, rgba(71, 4, 255, 1) 0%, rgba(255, 255, 255, 0.15730042016806722) 100%);
+$gradient--base: linear-gradient(90deg, rgba(255, 89, 52, 0.865983893557423) 0%, rgba(255, 255, 255, 0.2637429971988795) 75%);
+$gradient--base-hover: linear-gradient(135deg, rgb(0, 82, 204) 0%, rgb(171, 0, 187) 100%);
+$gradient--clay: linear-gradient(90deg, rgba(15, 13, 29, 0.908000700280112) 0%, rgba(255, 255, 255, 0) 100%);
+// background
+$bg--base:#ff5934;
+$bg-hover--base:#ff7758;
+$bg--Clay:#0f0d1d;
+$bg--section: #171717;
+$opc--Clay:rgba(15, 13, 29, 0.7);
+$bg--purple:#660099;
+$bg--primary: #007bff;
+$bg--black: #000;
+$bg--white: #fff;
+$bg--green: #5cd901;
+$bg--secondary: #6c757d;
+$bg--success: #28a745;
+$bg--danger: #dc3545;
+$bg--warning: #ffc107;
+$bg--info: #17a2b8;
+$bg--light: #e2e6ea;
+$bg--dark: #26292c;
+$bg--footer: #002f5fad;
+// background opacity
+$opc--black: rgba(0, 0, 0, 0.7);
+$opc--white: rgba(255, 255, 255, 0.6);
+$opc4--white: rgba(255, 255, 255, 0.4);
+$opc2--white: rgba(255, 255, 255, 0.2);
+$opc--clay: rgba(15, 13, 29, 0.7);
+$opc4--clay: rgba(15, 13, 29, 0.4);
+$opc2--clay: rgba(15, 13, 29, 0.2);
+$opc--warning:rgba(255, 193, 7, 0.7);
+$opc9--base:rgba(255, 89, 52, 0.9);
+$opc8--base:rgba(255, 89, 52, 0.8);
+$opc--base:rgba(255, 89, 52, 0.7);
+$opc6--base:rgba(255, 89, 52, 0.6);
+$opc5--base:rgba(255, 89, 52, 0.5);
+$opc4--base:rgba(255, 89, 52, 0.4);
+$opc3--base:rgba(255, 89, 52, 0.3);
+$opc2--base:rgba(255, 89, 52, 0.2);
+$opc1--base:rgba(255, 89, 52, 0.1);
+$opc--marino:rgba(63, 81, 181, 0.65);
+$opc--info: rgba(23, 163, 184, 0.6);
+$opc--purple: rgba(102, 0, 153, 0.6);
+$opc--success: rgba(40, 167, 70, 0.6);
+$opc--common: rgba(23, 103, 127, 0.7)
